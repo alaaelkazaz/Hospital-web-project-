@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="31" viewBox="0 0 68 31">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ef4482"/>
+      <stop offset="1" stop-color="#ff659f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_437" data-name="Group 437" transform="translate(-591 -217)">
+    <g id="Group_436" data-name="Group 436">
+      <rect id="Rectangle_186" data-name="Rectangle 186" width="5" height="20" rx="2.5" transform="translate(654 228)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_187" data-name="Rectangle 187" width="5" height="23" rx="2.5" transform="translate(623 225)" fill="#ebebeb"/>
+      <rect id="Rectangle_188" data-name="Rectangle 188" width="5" height="17" rx="2.5" transform="translate(644 231)" fill="#ebebeb"/>
+      <rect id="Rectangle_189" data-name="Rectangle 189" width="5" height="18" rx="2.5" transform="translate(612 230)" fill="#ebebeb"/>
+      <rect id="Rectangle_190" data-name="Rectangle 190" width="5" height="31" rx="2.5" transform="translate(591 217)" fill="#ebebeb"/>
+      <rect id="Rectangle_191" data-name="Rectangle 191" width="5" height="12" rx="2.5" transform="translate(633 236)" fill="#ebebeb"/>
+      <rect id="Rectangle_192" data-name="Rectangle 192" width="5" height="21" rx="2.5" transform="translate(602 227)" fill="#ebebeb"/>
+    </g>
+  </g>
+</svg>

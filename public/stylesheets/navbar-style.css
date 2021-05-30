@@ -1,0 +1,46 @@
+.navigation .badge.badge-warning {
+    position: absolute;
+    right: 20px;
+}
+
+.nav-link .notifcation-badge {
+    background-image: #4839EB !important;
+}
+
+.dropdown-notification .dropdown-menu.dropdown-menu-right::before {
+    background-image: #4839EB !important;
+    border-color: #4839EB;
+}
+
+.dropdown-notification .dropdown-menu-header {
+    background-image: #4839EB !important;
+}
+
+input:focus {
+    outline: red;
+}
+
+.primary {
+    COLOR: #4839EB !important
+}
+
+.header-navbar .navbar-container .bookmark-wrapper ul.nav li>a.nav-link i:hover {
+    COLOR: #4839EB !important
+}
+
+.header-navbar .navbar-container ul.nav li.dropdown-user .dropdown-menu-right .dropdown-item:hover {
+    background-color: #4839EB
+}
+
+.header-navbar .navbar-container ul.nav li i.ficon:hover {
+    color: #4839EB !important
+}
+
+input:focus {
+    border-color: #4839EB !important;
+    outline: #4839EB !important
+}
+
+select:focus {
+    border-color: #4839EB !important
+}

@@ -1,0 +1,109 @@
+body {
+    background-color: #F5F7FA !important;
+}
+
+.statics-cuolums .card .avatar {
+    background: none !important;
+    white-space: nowrap;
+    background-color: #c3c3c3;
+    border-radius: none;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    display: inline-flex;
+    margin: 0 !important;
+}
+
+.statics-cuolums .card .card-title {
+    border-bottom: 1px solid #eee;
+}
+
+.statics-cuolums .card .card-title h6 {
+    color: #918989;
+    font-weight: 600;
+}
+
+.activity-users .user-info p {
+    margin: 0;
+    font-weight: 500;
+    color: #000000
+}
+
+.activity-users li {
+    margin-top: 19px;
+}
+
+.activity-users .list-1 {
+    margin-top: 0px;
+}
+
+.users-header {
+    border-bottom: 1px solid #eee !important;
+    padding-bottom: 24px !important;
+}
+
+.card-statics {
+    height: 219px;
+}
+
+.statics-cuolums .card-header h2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.chartjs-render-monitor {
+    width: 10em !important;
+    height: 7em !important;
+    display: inline !important;
+    margin-top: 13px;
+}
+
+.card-active-user p {
+    font-size: 22px;
+    color: black
+}
+
+.product-card {
+    height: 289px;
+}
+
+.card-footer {
+    border: none !important;
+    background: none !important;
+    padding-right: 3px;
+    padding-left: 16px;
+}
+
+.card-footer .info p {
+    margin-left: 53%;
+    color: #f85692 !important
+}
+
+.card-footer .info h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.title-chart {
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+.card-stori .user-avatar {
+    border-radius: 50%;
+    border: 3px solid #EF4482;
+}
+
+.card-stori .user-avatar img {
+    border-radius: 50%;
+}
+
+.users-card {
+    margin-left: 0px;
+    height: 342px;
+}
+
+.card-stori {
+    height: 363px !important;
+}

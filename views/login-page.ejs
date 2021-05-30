@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <title>Login Page</title>
+    <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+
+    <!--Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app-assets/css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/components.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+
+</head>
+
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+
+    <div class="app-content content ">
+        <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-light navbar-shadow">
+            <div class="navbar-collapse container" id="navbar-mobile">
+                <a href="/index.html" class="navbar-brand">Hospital System</a>
+                <div class="collapse navbar-collapse">
+                    <form  class="nav navbar-nav ml-auto pt-2" method="POST"> 
+                    <ul class="nav navbar-nav ml-auto" >
+                        
+                        <li class="nav-item   mr-auto">
+                            <div class="form-group">
+                                <input class="form-control" name="name" type="text" name="username" placeholder="Email" aria-describedby="register-username" autofocus="" tabindex="1" aria-invalid="false">
+                            </div>
+                        </li>
+                        <li class="nav-item   mr-auto ml-2">
+                            <div class="form-group">
+                                <input class="form-control" name="password" type="text" name="loginpassword" placeholder="Password" aria-describedby="register-username" autofocus="" tabindex="1" aria-invalid="false">
+                            </div>
+                        </li>
+                        <li class="nav-item   mr-auto ml-2">
+                            <div class="form-group">
+                                <input hidden name="action" value="login">
+                                <button class="btn btn-primary btn-block waves-effect waves-float waves-light" tabindex="5" type="submit" name="loginbutton"> Sign
+                    in</button>
+                </div>
+            </li>
+        </ul>
+    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content-wrapper">
+            <div class="content-body">
+                <div class="auth-wrapper auth-v2">
+                    <div class=" row m-0 p-0">
+                        <!-- Banner -->
+                        <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
+                            <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img class="img-fluid" src="images/undraw_doctors_hwty.svg" width="100%" alt="Login V2" /></div>
+                        </div>
+
+                        <!-- Login-->
+                        <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
+
+                            <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
+
+                                <h2 class="card-title font-weight-bold mb-1">Create Your Account</h2>
+                                <p class="card-text mb-2">We Always Care For Your Health</p>
+                                <form class="auth-register-form mt-2" method="POST" novalidate="novalidate">
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="register-username">Username</label>
+                                        <input class="form-control" id="register-username" type="text" name="name" placeholder="johndoe" aria-describedby="register-username" autofocus="" tabindex="1" aria-invalid="false">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="register-email">Email</label>
+                                        <input class="form-control" id="register-email" type="text" name="email" placeholder="john@example.com" aria-describedby="register-email" tabindex="2">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="register-password">Password</label>
+                                        <div class="input-group input-group-merge form-password-toggle">
+                                            <input class="form-control form-control-merge" id="register-password" type="password" name="password" placeholder="············" aria-describedby="register-password" tabindex="3" aria-invalid="false">
+                                        </div>
+                                    </div>
+                                    <input hidden name="action" value="register">
+
+                                    <button class="btn btn-primary btn-block waves-effect waves-float waves-light" tabindex="5" type="submit">Sign up</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

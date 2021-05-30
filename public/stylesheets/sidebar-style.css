@@ -1,0 +1,61 @@
+.main-menu {
+    /* background-image: linear-gradient(#EF4482, #FF659F) !important;  */
+    background-color: #4839EB!important;
+}
+
+.main-menu.menu-light .navigation {
+    background: none !important
+}
+
+.main-menu.menu-light .navigation .nav-item>a {
+    color: #fff !important
+}
+
+.main-menu .shadow-bottom {
+    box-shadow: none !important;
+}
+
+.main-menu.menu-light .navigation>li {
+    padding: 0 !important;
+    padding-left: 20px !important;
+    border-radius: 20px !important;
+}
+
+.main-menu.menu-light .navigation>li.active>a {
+    color: #2E294E !important;
+    background: #F5F7FA !important;
+    box-shadow: none !important;
+    border-top-left-radius: 2em !important;
+    border-bottom-left-radius: 2em !important
+}
+
+.main-menu.menu-light .navigation>li.active>i {
+    color: #2E294E !important;
+}
+
+.main-menu.menu-light .navigation>li.open>a,
+.main-menu.menu-light .navigation>li.sidebar-group-active>a {
+    background: none !important
+}
+
+.main-menu.menu-light .navigation li.has-sub ul.menu-content {
+    padding: 0 !important;
+    padding-left: 20px !important;
+    border-top-left-radius: 2em !important;
+    border-bottom-left-radius: 2em !important;
+    padding-left: 10px !important;
+}
+
+.main-menu .badge-masseg {
+    background-color: #ffff;
+    color: black;
+}
+
+.main-menu.menu-light .navigation>li.active>.badge-masseg {
+    background-color: #4839EB !important;
+    color: #ffff !important;
+}
+
+.activ_link {
+    color: #4839EB !important
+}

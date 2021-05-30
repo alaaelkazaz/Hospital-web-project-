@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400;1,700;1,800&display=swap');
+body {
+    height:1000px !important;
+    font-family: 'Open Sans', sans-serif !important; 
+}
+.head {
+    background-image:url("../newimages/Mask Group 2.png");
+    height:100vh;
+    background-size: contain;
+    background-position: right -1px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.head .nav  a  {
+     color:#fff !important;
+     text-decoration: none;
+     margin-left:30px;
+     font-weight: 700;
+}
+.head .nav  a > button {
+    border-color:#ffff !important;
+    border-width: 2px;
+    color:#fff !important;
+    font-weight: 700;
+}  
+.head .img-div  {
+    position: relative;
+}
+.head .img-div  img  {
+    position: absolute;
+    top: -309px;
+}
+.header-info h3 {
+    color:#5E57A7;
+    font-weight: 700;
+    line-height: 5rem;
+    font-size: 50px;
+} 
+.body-info p {
+    color:#5E57A7;
+    font-weight: 400;
+}
+.body-info strong {
+    font-weight: bold;
+    color:#5E57A7;
+
+}
+.footer-info  button {
+    background-image: linear-gradient(30deg, #9B4EFE, rgba(107, 115, 255, 1)) !important;
+}
+.footer-info  .bt {
+    box-shadow: 2px 10px 14px 0px #9B4EFE;
+}
+.footer-info  .bt:hover {
+    box-shadow: 2px 10px 14px 0px #9B4EFE !important;
+}
+
+.app .servisece .card .card-content .card-body .card-title{
+    font-weight: bold;
+    color:#5E57A7;
+}
+.app .servisece .card .card-content .card-body .card-text  
+{
+    color:#5E57A7;
+}
+.app .title h1  {
+    color:#5E57A7;
+}
+.content-2 {
+    min-height: 78rem;
+    background-image: url("../newimages/Group 231.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 62px;
+    padding-top: 233px;
+    padding-bottom: 8rem;
+
+}
+.content-2  .card .card-content .card-body .card-title{
+    font-weight:600;
+    color:#ffffff;
+}
+.content-2  .card  {
+    background:none;
+    padding: 11px;
+    width: 220px;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+    box-shadow:none !important
+}
+.content-2  .card:hover {
+    border:2px solid #fff;
+}
+.content-2  .card:hover .card-content {
+    background-color:rgb(255,255,255,.5) !important;
+}
+.content-2  .card .card-content  {
+    background-color:rgb(255,255,255,.2) !important;
+    transition: .5s all ease-in-out;
+    height: 202px;
+    border-radius: 2rem;
+}
+.content-2  .title h2 {
+    color:#fff;
+    font-weight: 700;
+    font-size: 35px;
+}
+.content-2  .footer  button{
+ 
+      background:none;
+      border:2px solid #fff
+
+}
+.content-2  .card .card-content .card-body  {
+    padding-top: 55px;
+}
+.content-2  .card .card-content .card-title{
+    font-weight: 400;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #5E57A7;
+    border-radius:50%;
+    width: 17px;
+    box-sizing:border-box !important;
+    margin-left: 7px;
+}
+
+.blog .carousel-indicators .active {
+background: #5E57A7;
+}
+.clint {
+ 
+} 
+.clint .blog .user   {
+  background-color:#ffff;
+  height:300px;
+  width:100%;
+  border-radius: 10px;
+  padding: 30px;
+}
+.clint .blog .user   h3 {
+ color:#5E57A7;
+ font-size: 18px;
+ padding-top: 15px;
+ font-weight: 700;
+}
+.clint .blog .user  p {
+    font-weight:300;
+    font-size: 13px;
+    color:#5E57A7;
+}
+.clint .title h2 {
+  color:#5E57A7;
+  font-weight: 700;
+}
+.carousel {
+    padding-bottom: 32px;
+}
+.happy .title h1 { 
+    color:#5E57A7;
+    font-weight: 800;
+    font-size: 100px;
+    }
+    .happy .title h3 { 
+        color:#5E57A7;
+        font-weight: 700;
+        font-size: 20px;
+        }
+        .happy .body {
+    padding-left:20px
+        }  
+        .happy .body img {
+            opacity: .5;
+        }
+/* .head .navbar   {
+
+} */

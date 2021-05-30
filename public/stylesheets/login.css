@@ -1,0 +1,38 @@
+body {
+    background: #F5F7FA !important;
+}
+
+.rem {
+    color: #EF4482
+}
+
+.card-link {
+    color: #EF4482
+}
+
+.card-link:hover {
+    color: #EF4482
+}
+
+.vs-checkbox-primary input:checked~.vs-checkbox {
+    border-color: #EF4482 !important;
+}
+
+.vs-checkbox-primary input:checked~.vs-checkbox .vs-checkbox--check {
+    background-color: #EF4482 !important;
+}
+
+.login {
+    background-color: #EF4482 !important;
+    color: #fff
+}
+
+.login:hover {
+    background-color: #EF4482 !important;
+    color: #fff
+}
+
+
+.bookmark-wrapper {
+    justify-content: space-between;
+}
